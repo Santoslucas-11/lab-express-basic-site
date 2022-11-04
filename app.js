@@ -15,8 +15,4 @@ app.get('/works', (request, response) => {
     response.sendFile(__dirname + '/views/works.html');
 });
 
-app.get('/gallery', (request, response) => {
-    response.sendFile(__dirname + '/views/gallery.html');
-});
-
 app.listen(3000, () => console.log('App running on port 3000'));
